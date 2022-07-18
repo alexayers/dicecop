@@ -557,6 +557,8 @@ export class MainScreen implements GameScreen {
 
                 this._pointing = 0;
 
+                console.log("Accuse ->" + this._playerGuess[0] + " " + this._playerGuess[1] + " " + this._playerGuess[2]);
+
                 if (this._playerGuess[0] == this._numbers[0] &&
                     this._playerGuess[1] == this._numbers[1] &&
                     this._playerGuess[2] == this._numbers[2]) {
