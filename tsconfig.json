@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "noUnusedLocals": true,
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "target": "es6",
+    "allowJs": true,
+    "typeRoots": ["node_modules/@types", "custom_typings"]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "./src/ts/app.ts"
+  ]
+}
