@@ -609,10 +609,6 @@ export class MainScreen implements GameScreen {
 
             this._paper.play();
 
-            this._playerGuess[0] = this._lie[0];
-            this._playerGuess[1] = this._lie[1];
-            this._playerGuess[2] = this._lie[2];
-
             if (this._isGuessing) {
                 this._isGuessing = false;
             } else {
